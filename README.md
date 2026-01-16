@@ -1,4 +1,4 @@
-# 针对 RuyiSDK VSCode插件 的测试
+# 针对RuyiSDK VSCode插件的测试
 
 ## 测试说明
 
