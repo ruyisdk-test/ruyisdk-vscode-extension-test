@@ -15,11 +15,11 @@
 + cpu: 16 核
 + 内存：4G
 + 镜像：https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-+ 插件版本：[0.1.1-beta.1](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.1-beta.1)
-+ RuyiSDK版本：[0.45.0-beta](https://github.com/ruyisdk/ruyi/releases/download/0.45.0-beta.20260119/ruyi-0.45.0-beta.20260119.amd64)
++ 插件版本：[0.1.2-beta.1](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.2-beta.1)
++ RuyiSDK版本：[0.46.0](https://github.com/ruyisdk/ruyi/releases/tag/0.46.0)
 ## 测试结果
 
-共 15 个测试用例，成功 14 个，失败 1 个。
+共 17 个测试用例，成功 16 个，失败 1 个。
 |          测试用例          | 结果  |                                          备注                                          |
 | :------------------------: | :----:| :----------------------------------------------------------------------------------------------------------: |
-|       新闻/查看仅未读      |  失败 |    手动查看未读新闻列表失败       |
+|       版本更新提示冲突     |  失败 |    ruyisdk多版本状态下会重复提示版本更新       |
