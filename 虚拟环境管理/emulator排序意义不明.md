@@ -8,4 +8,10 @@
 emulator 按某种顺序进行排序
 
 # 测试结果
-emulator排序意义不明
+box64-upstream emulator版本状态排序意义不明
+
+![alt text](img/box64.1.png)
+
+![alt text](img/box64.2.png)
+
+

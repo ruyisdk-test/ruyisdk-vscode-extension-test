@@ -9,5 +9,5 @@
 ruyi package状态会随选择的仓库进行刷新
 
 # 测试结果
-ruyi package状态需要手动刷新
+ruyi package状态会随选择的仓库进行刷新
 
