@@ -15,16 +15,15 @@
 + cpu: 16 核
 + 内存：4G
 + 镜像：https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso
-+ 插件版本：[0.1.7-beta.1](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.7-beta.1)
++ 插件版本：[0.1.8-beta.1](https://github.com/ruyisdk/ruyisdk-vscode-extension/releases/tag/0.1.7-beta.1)
 + RuyiSDK版本：[0.53.0](https://github.com/ruyisdk/ruyi/releases/tag/0.53.0-beta.20260917)
 ## 测试结果
 
-共 35 个测试用例，成功 30 个，失败 5 个。
+共 42 个测试用例，成功 38 个，失败 4 个。
 |          测试用例          | 结果  |                                          备注                                          |
 | :------------------------: | :----:| :----------------------------------------------------------------------------------------------------------:
-|emulator排序意义不明|失败||
-|ruyi存在多个镜像源时，存在软件包安装冲突（状态异常）|失败||
-|版本切换过程中中英文切换不灵活|失败||
-|包树搜索会将输入强制转为小写（新闻搜索情况类似）|失败||
+|wlink不可见|失败 ||
 |下载进度显示的软件包大小偏小（单位进制不一致）|失败||
+|过低的如意版本时显示提示|失败|重复ruyi前缀|
+|搜索有结果时仍提示未找到结果|失败||
 
